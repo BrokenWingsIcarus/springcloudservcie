@@ -1,0 +1,15 @@
+server:
+  port: 8040
+
+spring:
+  application:
+    name: springcloud_config
+
+  cloud:
+    config:
+      server:
+        git:
+          uri:  https://github.com/chinausers/spring_cloud_centerConfig
+          search-paths: config-repo
+          username: 2363001449@qq.com
+          password: q1851656204

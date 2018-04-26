@@ -10,9 +10,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableDiscoveryClient
 @EnableFeignClients
 @EnableCircuitBreaker
-public class HystrixDashoboardNode1Application {
+public class HystrixDashoboardNode2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(HystrixDashoboardNode1Application.class, args);
+        SpringApplication.run(HystrixDashoboardNode2Application.class, args);
     }
 }

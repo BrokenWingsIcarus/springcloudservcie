@@ -1,9 +1,11 @@
 package com.goodonedog.hystrixdashoboardnode1.service;
 
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+@Component
 public class FallBackClientService implements ClientService {
 
     private org.slf4j.Logger logger = LoggerFactory.getLogger(this.getClass());

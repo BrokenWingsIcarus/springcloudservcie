@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(value = "compute-service",fallback=void.class)
+@FeignClient(value = "spring-cloud-producer2",fallback=FallBackClientService.class)
 @Service
 public interface ClientService  {
 
