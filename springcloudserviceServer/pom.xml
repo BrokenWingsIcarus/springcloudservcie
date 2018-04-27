@@ -30,14 +30,20 @@
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter</artifactId>
     </dependency>
-    <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-eureka-server</artifactId>
-    </dependency>
+
+    <!-- 服务中心-->
     <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-config-server</artifactId>
     </dependency>
+
+    <!-- eureka 服务模块 -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-eureka-server</artifactId>
+    </dependency>
+
+
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-test</artifactId>
